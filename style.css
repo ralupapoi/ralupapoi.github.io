@@ -1,0 +1,71 @@
+body{
+    background-color: #f1f1f1;
+    margin:0px
+}
+
+.test{
+    border:5px solid red;
+    padding:6px; 
+    
+}
+
+#sidebar-left {
+    float: left;
+    width: 200px;
+    Border-color:green;
+   
+}
+
+#content{
+    padding-left: 210px;
+
+}
+h1 {
+    text-align: center; 
+    color: cadetblue;
+    
+}
+td{padding: 4px 4px 4px 4px }
+#summary {
+    color: #60c3d4;
+    margin: 0 5px 5px 5px;
+}
+.page {
+    background: #fff; 
+    padding: 10px;
+    border: 1px solid #d6d5d5; 
+    margin: 0px 5px 5px 5px;
+    display: none;
+    
+}
+h2{
+    margin: 0.2em  0em  0.2em 0em
+}
+#top-menu-bar {
+    text-align: center;
+    background-color: #334455
+}
+#top-menu-bar li {
+    display: inline; 
+    margin: 0px;
+    padding: o ;
+}
+#top-menu-bar a {
+color: white;
+padding: 5px 15px 5px 15px;
+text-decoration: none;
+display: inline-block;
+}
+
+#top-menu-bar a:visited {
+    color:#fff;
+}
+#top-menu-bar a:hover {
+    color:334455;
+    background: #fff
+}
+.contact {
+    float: left ;
+    padding-left: 220px;
+
+}

@@ -57,14 +57,15 @@ function hideAllPages(){
 
 initMenu(); 
 
-
-function showSkills(){
-    var skills= ['html', "css", "js"];
-    console.warn|("showSkills", skills);
-    for(var i=0; i< skills.length; i++){
-        console.info("#" + (i +1) + "" + skills[i]);
+function showSkills() {
+    var skills = ['html', "css", "js"];
+    console.warn | ("showSkills", skills);
+    skills.forEach(printSkill);
+    
+    function printSkill(skill, index) {
+        console.info("#" + (index + 1) + " " + skill);
     }
 }
 
-showSKillls();
+showSkills();
 

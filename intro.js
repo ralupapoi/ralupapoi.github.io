@@ -41,7 +41,6 @@ function initMenu(){
 
     }
 }
-
 function clickOnMenuItem(){
     console.warn("clicked on menu", this);
     hideAllPages();
@@ -55,4 +54,13 @@ function hideAllPages(){
         pages[i].style.display = "none";
     }
 }
+
 initMenu(); 
+function showSKillls() {
+    var skills = ["html", "css", "js"];
+    for (var i = 0; i < skills.length; i++) {
+        console.warn(i+1 + '.' + skills[i]);
+    }
+}
+
+showSKillls();

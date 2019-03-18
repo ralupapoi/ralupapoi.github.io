@@ -64,3 +64,19 @@ function showSKillls() {
 }
 
 showSKillls();
+
+function showSkills(){
+    var skills= ['html', "css", "js"];
+    console.warn|("showSkills", skills);
+    for(var i=0; i< skills.length; i++){
+        console.info(i +1 + "" + skills[i]);
+    }
+}
+
+function showSkills(){
+    var skills= ['html', "css", "js"];
+    console.warn|("showSkills", skills);
+    for(var i=0; i< skills.length; i++){
+        console.info("#" + (i +1) + "" + skills[i]);
+    }
+}
